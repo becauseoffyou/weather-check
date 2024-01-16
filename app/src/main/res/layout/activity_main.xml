@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iphone_11_p"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="@color/gray"
+    >
+
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <TextView
+        android:id="@+id/tanggalsekarang"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:text="16 Januari 2024"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/waktusekarang"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="52dp"
+        android:text="00:00"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/nama_kota"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:text="Kota Bekasi"
+        android:gravity="center_horizontal|top"
+        />
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/ellipse" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/image_5"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"/>
+
+    <TextView
+        android:id="@+id/derajat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:text="28°C"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/keterangancuaca"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="Hujan"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/wind_speed"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="658dp"
+        android:text="Wind Speed"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="658dp"
+        android:text="Humidity"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/visibilty"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="658dp"
+        android:text="Visibilty"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/presure"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="658dp"
+        android:text="Air Pressure"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/wsvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="685dp"
+        android:text="00"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/hmdtyvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="685dp"
+        android:textSize="20dp"
+        android:text="00"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/visvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="202dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="685dp"
+        android:textSize="20dp"
+        android:text="00"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/presureval"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="275dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="685dp"
+        android:textSize="20dp"
+        android:text="00"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|top"
+        />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:alpha="0.3"
+        android:id="@+id/pgb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
